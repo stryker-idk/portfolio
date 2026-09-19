@@ -17,8 +17,16 @@
 
         .segments {
             /* block for the segments themself */
-            flex: 1;
+            container-type: inline-size;
+            flex: 1%;
             margin: 1%;
+            border-radius: 50px;
+            font-size: 1.5cqw;
+            font-family: nasalisation;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         } 
 
     </style>
@@ -29,16 +37,22 @@
     <div class="segments" style="background-color: red">
         <!-- about me segment-->
         <!-- the inline <style> is just for testing.-->
+        <h1>About me</h1>
+        <p>About me page</p>
     </div>
     
     <div class="segments" style="background-color: green">
         <!-- projects segment-->
         <!-- the inline <style> is just for testing.-->
+        <h1>Projects</h1>
+        <p>My projects page</p>
     </div>
     
     <div class="segments" style="background-color: blue">
         <!-- blog/tbd segment-->
         <!-- the inline <style> is just for testing.-->
+        <h1>blog/TBD</h1>
+        <p>My Blog/TBD page</p>
     </div>
 </div>    
 
