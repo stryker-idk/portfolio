@@ -44,6 +44,20 @@
         .segments:hover {
             transform: scale(1.02);
             border: thick solid slategray;
+            
+            &#about_me {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
+            }
+            &#projects {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
+            }
+            &#contact {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
+            }
+            
+            &.text_inner {
+                background-color: rgb(0 0 0 / 0.75);
+            }
         }
         
         .segments:hover p {
