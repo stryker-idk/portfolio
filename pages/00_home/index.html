@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Homepage</title>
     <link rel="stylesheet" href="../../global/global.css">
+    <link rel="stylesheet" href="home.css">
     <style>
         
         body {
@@ -31,11 +32,16 @@
             text-decoration: none;
             color: inherit;
             justify-content: center;
+
+            position: relative;
+            background-size: cover;
+            background-position: center;
         }
 
         .segments:hover {
             transform: scale(1.02);
             transition: transform .1s ease-in-out;
+            border: medium solid slategray;
         }
 
     </style>
@@ -43,27 +49,27 @@
 <body>
 
 <div class="container">
-    <a class="segments" href="../01_about_me/about_me.html" id="about_me" style="background-color: red">
+    <a class="segments" href="../01_about_me/about_me.html" id="about_me">
         <!-- about me segment-->
         <!-- the inline <style> is just for testing.-->
         <h1>About me</h1>
         <p>About me page</p>
     </a>
     
-    <a class="segments" href="../02_projects/projects.html" id="projects" style="background-color: green">
+    <a class="segments" href="../02_projects/projects.html" id="projects">
         <!-- projects segment-->
         <!-- the inline <style> is just for testing.-->
         <h1>Projects</h1>
         <p>My projects page</p>
     </a>
     
-    <a class="segments" href="../03_contact/contact.html" id="contact" style="background-color: blue">
+    <a class="segments" href="../03_contact/contact.html" id="contact">
         <!-- Contact segment-->
         <!-- the inline <style> is just for testing.-->
         <h1>Contact</h1>
         <p>how to contact me page</p>
     </a>
-</div>    
+</div>
 
 </body>
 </html>

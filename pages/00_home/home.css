@@ -1,13 +1,13 @@
 /* This css file is for the more complex customisation for the different segments, like the images, animations, etc... */
 
 #about_me {
-
+    background-image: url("https://placehold.net/default.svg");
 }
 
 #projects {
-
+    background-image: url("https://placehold.net/default.svg");
 }
 
-#contact_me {
-
+#contact {
+    background-image: url("https://placehold.net/default.svg");
 }
