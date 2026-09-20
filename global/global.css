@@ -2,3 +2,19 @@
     font-family: "nasalisation";
     src: url("ressources/fonts/Nasalization-Rg.otf") format("Opentype");
 }
+
+:root {
+    --bg: #0E0E11;
+    
+    --surface50: rgb(22 22 27 / 0.5);
+    --surface75: rgb(22 22 27 / 0.75);
+    --surface100: rgb(22 22 27 / 1);
+    
+    --border50: rgb(39 39 47 / 0.5);
+    --border75: rgb(39 39 47 / 0.75);
+    --border100: rgb(39 39 47 / 1);
+    
+    --text: #E9E9ED;
+    --muted: #90909B;
+    --accent: #8B7DD9;
+}
