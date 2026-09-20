@@ -1,13 +1,13 @@
-/* This css file is for the more complex customisation for the different segments, like the images, animations, etc... */
+/* this css file is for the more complex customisation for the different segments, like the images, animations, etc... */
 
 #about_me {
-    background-image: url("https://placehold.net/default.svg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://placehold.net/default.svg");
 }
 
 #projects {
-    background-image: url("https://placehold.net/default.svg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://placehold.net/default.svg");
 }
 
 #contact {
-    background-image: url("https://placehold.net/default.svg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://placehold.net/default.svg");
 }
