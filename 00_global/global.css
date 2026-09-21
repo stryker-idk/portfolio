@@ -3,6 +3,11 @@
     src: url("ressources/fonts/Nasalization-Rg.otf") format("Opentype");
 }
 
+@font-face {
+    font-family: "IBM";
+    src: url("ressources/fonts/IBMPlexSans-VariableFont_wdth,wght.ttf") format("TrueType");
+}
+
 :root {
     --bg: #0E0E11;
     
