@@ -3,130 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+
     <link rel="stylesheet" href="../../00_global/global.css">
     <link rel="stylesheet" href="home.css">
-    <style>
-        
-        body {
-            margin: 0;
-            background-color: var(--bg);
-        }
 
-        .container {
-            /* block for the div containing all the segments */
-            display: flex;
-            min-height: 100vh;
-        }
-
-        .segments {
-            /* block for the segments combined, individual customization is done in home.css */
-            container-type: inline-size;
-            flex: 1;
-            margin: 1%;
-            border-radius: 50px;
-            font-size: 1.25cqw;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            text-decoration: none;
-            justify-content: center;
-
-            position: relative;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            border: medium solid var(--border100);
-            transition: transform .1s ease-in-out;
-        }
-
-        .segments:hover {
-            transform: scale(1.02);
-            box-shadow: 0 0 10px 5px var(--accent);
-            
-            &#about_me {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
-            }
-            &#projects {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
-            }
-            &#contact {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
-            }
-            
-            & .text_inner {
-                background-color: var(--surface75);
-            }
-        }
-        
-        .segments:hover p {
-            max-height: 500px;
-            opacity: 1;
-            transition: max-height .25s ease-in-out, opacity .25s allow-discrete;
-        }
-        
-        .segments:hover h1 {
-            text-decoration: underline 10% var(--accent);
-            transition: max-height .25s ease-in-out, opacity .25s allow-discrete;
-        }
-
-        .text_inner {
-            margin: inherit;
-            width: 60%;
-            background-color: var(--surface50);
-            border-radius: 50px;
-            border: medium solid var(--border100);
-            padding: 25px;
-            display: block;
-            
-            h1 {
-                color: var(--text);
-                font-family: nasalisation,serif;
-            }
-            
-            p {
-                color: var(--muted);
-                font-family: IBM, serif;
-                display: block;
-                max-height: 0;
-                overflow: hidden;
-                opacity: 0;
-                margin: 0;
-                transition: max-height .1s ease-in-out, opacity 0.5s allow-discrete;
-            }
-        }
-        
-    </style>
+    <script src="../../00_global/global.js" defer></script>
+    <script src="home.js" defer></script>
 </head>
 <body>
-
-<div class="container">
-    <a class="segments" href="../01_about_me/about_me.html" id="about_me">
-        <!-- about me segment-->
-        <div class="text_inner">
-            <h1>About me</h1>
-            <p>About me page</p>
-        </div>
-    </a>
-    
-    <a class="segments" href="../02_projects/projects.html" id="projects">
-        <!-- projects segment-->
-        <div class="text_inner">
-            <h1>Projects</h1>
-            <p>My projects page</p>
-        </div>    
-    </a>
-    
-    <a class="segments" href="../03_contact/contact.html" id="contact">
-        <!-- Contact segment-->
-        <div class="text_inner">
-            <h1>Contact</h1>
-            <p>how to contact me</p>
-        </div>
-    </a>
-</div>
-
-<p style="color:var(--muted); position: fixed; font-size: 10px; bottom: 0; left: 0; margin: 0">Disclaimer: No Ai was used during the creation of this website</p>
 
 </body>
 </html>

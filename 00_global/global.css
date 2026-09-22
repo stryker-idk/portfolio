@@ -15,41 +15,15 @@ body {
 
 :root {
     --bg: #0E0E11;
-    
+
+    --surface25: rgb(22 22 27 / 0.25);
     --surface50: rgb(22 22 27 / 0.5);
     --surface75: rgb(22 22 27 / 0.75);
     --surface100: rgb(22 22 27 / 1);
-    
-    --border50: rgb(39 39 47 / 0.5);
-    --border75: rgb(39 39 47 / 0.75);
+
     --border100: rgb(39 39 47 / 1);
     
     --text: #E9E9ED;
     --muted: #90909B;
     --accent: #8B7DD9;
-}
-
-.text_card {
-    border: medium solid var(--border100);
-    border-radius: 50px;
-    padding: 1%;
-    margin: 1%;
-    box-sizing: border-box;
-    max-width: 100%;
-    overflow-wrap: break-word;
-
-    container-type: inline-size;
-
-    transition: transform .1s ease-in-out;
-
-    h1, h2, h3, h4, h5, h6 {
-        font-family: nasalisation, serif;
-        color: var(--text);
-        text-decoration: none;
-    }
-    p {
-        font-family: IBM, serif;
-        color: var(--muted);
-        text-decoration: none;
-    }
 }
