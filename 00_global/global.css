@@ -53,19 +53,3 @@ body {
         text-decoration: none;
     }
 }
-
-.text_card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 10px 5px var(--accent);
-
-    h1, h2, h3, h4, h5, h6 {
-        text-decoration: underline 10% var(--accent);
-    }
-    p {
-        color: var(--text);
-    }
-}
-
-.text_reveal_card {
-
-}
