@@ -27,3 +27,19 @@ body {
     --muted: #90909B;
     --accent: #8B7DD9;
 }
+
+.card {
+    border-color: var(--border100);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5cqw;
+}
+
+
+/* ANIMATIONS */
+.hover-expand {
+    transition: transform .25s ease-in-out;
+}
+.hover-expand:hover {
+    transform: scale(1.02);
+}
