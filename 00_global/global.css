@@ -38,13 +38,6 @@ p {
     --accent: #8b7dd9;
 }
 
-.card {
-    border-color: var(--border);
-    border-style: solid;
-    border-width: medium;
-    border-radius: 2.5cqw;
-    text-decoration: none;
-}
 
 
 /* ANIMATIONS */
