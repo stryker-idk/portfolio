@@ -1,0 +1,10 @@
+#header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:
+}
+
+#test {
+    align-self: center;
+    justify-self: center;
+}
