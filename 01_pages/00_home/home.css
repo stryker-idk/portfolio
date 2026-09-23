@@ -8,13 +8,41 @@
 .segment {
     display: grid;
     margin: 5%;
-    grid-template-columns:100%;
+    grid-template-columns: 100%;
     grid-template-rows: 100%;
     
     justify-items: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .segment_inner {
+    padding: 5%;
+    width: 35%;
     text-align: center;
+    border-color: var(--bg);
+    background-color: var(--surface75);
+}
+
+#about_me {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://placehold.net/default.svg");
+}
+#about_me:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
+}
+
+#projects {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://placehold.net/default.svg");
+}
+#projects:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
+}
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://placehold.net/default.svg");
+}
+#contact:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("https://placehold.net/default.svg");
 }
