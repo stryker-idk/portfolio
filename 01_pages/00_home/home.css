@@ -1,5 +1,4 @@
 .main {
-    margin: 0;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 100svh;
@@ -20,7 +19,8 @@
 
 .segment_inner {
     padding: 5%;
-    width: 35%;
+    width: 15cqw;
+    font-size: 1cqw;
     text-align: center;
     border-color: var(--bg);
     background-color: var(--surface75);
